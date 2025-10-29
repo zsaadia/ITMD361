@@ -149,10 +149,10 @@ iframe {
   }
   
 footer {
-  text-align: center;
+  text-align: left;
   font-size: 0.9rem;
   color: #4a1a2c;
-  margin-top: 4rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }

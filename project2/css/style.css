@@ -114,7 +114,30 @@ iframe {
   border: 0.3rem solid #d81b60;
 }
 
-
+.study-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .study-block img {
+    max-width: 10rem;
+    height: auto;
+    border-radius: 0.75rem;
+    border: 0.3rem solid #d81b60;
+  }
+  
+  .study-block p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #4a1a2c;
+    max-width: 20rem;
+  }
+  
 footer {
   text-align: center;
   font-size: 0.9rem;

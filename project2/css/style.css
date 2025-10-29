@@ -109,14 +109,15 @@ iframe {
 }
 
 .about-block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }  
 
 .selfie-img {
   max-width: 10rem;

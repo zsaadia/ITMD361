@@ -138,6 +138,16 @@ iframe {
     max-width: 20rem;
   }
   
+.selfie-img {
+    max-width: 10rem;
+    height: auto;
+    border-radius: 0.75rem;
+    border: 0.3rem solid #d81b60;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
 footer {
   text-align: center;
   font-size: 0.9rem;

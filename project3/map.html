@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Map</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="page3.html">Dream Vacation</a></li>
+          <li><a href="map.html">Map</a></li>
+        </ul>
+      </nav>
+      <button id="questionsBtn" class="btn-questions">Questions?</button>
+    </header>
+
+    <main>
+      <div class="page3-wrapper">
+        <h1>Places I Love on the Map</h1>
+        <p>Three pins with info windows, a pinkish map style, and the map auto-fits to show them all.</p>
+        <div id="map" aria-label="Google map showing selected locations"></div>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <p>2025 My Website</p>
+    </footer>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
+  </body>
+</html>

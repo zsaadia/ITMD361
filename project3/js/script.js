@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!mapEl) return;
   
     var spots = [
-      { title: "Chicago, IL", pos: { lat: 41.8781, lng: -87.6298 }, note: "Where I study and live. myy favorite city ever." },
+      { title: "Chicago, IL", pos: { lat: 41.8781, lng: -87.6298 }, note: "Where I study and live. My favorite city ever." },
       { title: "Illinois Tech", pos: { lat: 41.8349, lng: -87.6280 }, note: "Campus vibes." },
       { title: "Maldives (Dream)", pos: { lat: 3.2028, lng: 73.2207 }, note: "Dream vacation spot." }
     ];
@@ -56,11 +56,6 @@ document.addEventListener("DOMContentLoaded", function () {
     map.fitBounds(bounds);
   }
 
-  new google.maps.Marker({
-    position: s.pos,
-    map,
-    title: s.title,
-    animation: google.maps.Animation.DROP
-  });
+
   
   

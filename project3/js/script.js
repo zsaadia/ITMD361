@@ -55,4 +55,12 @@ document.addEventListener("DOMContentLoaded", function () {
   
     map.fitBounds(bounds);
   }
+
+  new google.maps.Marker({
+    position: s.pos,
+    map,
+    title: s.title,
+    animation: google.maps.Animation.DROP
+  });
+  
   
